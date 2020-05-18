@@ -12,7 +12,7 @@ export default ({data}) => {
         <SEO title={post.frontmatter.title} image={post.frontmatter.image.childImageSharp.fluid.src}/>
         <article>
         <header>
-        <Image fluid={post.frontmatter.image.childImageSharp.fluid} alt/>
+        <Image fluid={post.frontmatter.image.childImageSharp.fluid} alt=''/>
         <h1>{post.frontmatter.title}</h1>
         </header>
         <section dangerouslySetInnerHTML={{__html: post.html}}/>

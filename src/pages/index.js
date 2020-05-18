@@ -8,7 +8,7 @@ export default ({data}) => {
     return (
     <Layout>
     {posts.map((post) => {
-        return (<Link to={post.fields.slug}>
+        return (<Link to={post.fields.slug} key={post.fields.slug}>
         <h2>{post.frontmatter.title}</h2>
         </Link>
         )
