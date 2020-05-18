@@ -17,6 +17,7 @@ export default ({data}) => {
             ...post.frontmatter.image.childImageSharp.fluid,
             aspectRatio: 21 / 9,
           }}
+        // fluid={post.frontmatter.image.childImageSharp.fluid}
         alt=''
         />
         <h1>{post.frontmatter.title}</h1>
