@@ -4,7 +4,7 @@ import Image from "gatsby-image"
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 
-export default ({data}) => {
+export const BlogPostTemplate =  ({data}) => {
     const post = data.markdownRemark
 
     return (
@@ -45,4 +45,6 @@ export const pageQuery = graphql`
         }
       }
 `
+
+export default BlogPostTemplate
 

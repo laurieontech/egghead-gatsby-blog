@@ -3,7 +3,7 @@ import {graphql, Link} from 'gatsby'
 import Layout from '../components/layout'
  
 
-export default ({data}) => {
+export const HomePage = ({data}) => {
     const posts = data.allMarkdownRemark.nodes
     return (
     <Layout>
@@ -30,3 +30,5 @@ query {
   }
 }
 `
+
+export default HomePage

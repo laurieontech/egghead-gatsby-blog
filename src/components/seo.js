@@ -2,7 +2,7 @@ import React from 'react'
 import {Helmet} from "react-helmet"
 import {useStaticQuery, graphql} from 'gatsby'
 import PropTypes from 'prop-types'
-const SEO = ({title, image, meta}) => {
+export const SEO = ({title, image, meta}) => {
     const {site} = useStaticQuery(
         graphql`
         query {
