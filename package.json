@@ -1,0 +1,26 @@
+{
+  "name": "egghead-gatsby",
+  "version": "1.0.0",
+  "description": "My gatsby site.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Laurie Barth",
+  "license": "ISC",
+  "dependencies": {
+    "gatsby": "^2.21.33",
+    "gatsby-image": "^2.4.3",
+    "gatsby-plugin-react-helmet": "^3.3.1",
+    "gatsby-plugin-sharp": "^2.6.3",
+    "gatsby-remark-images": "^3.3.3",
+    "gatsby-remark-prismjs": "^3.5.1",
+    "gatsby-source-filesystem": "^2.3.3",
+    "gatsby-transformer-remark": "^2.8.8",
+    "gatsby-transformer-sharp": "^2.5.2",
+    "prismjs": "^1.20.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-helmet": "^6.0.0"
+  }
+}
